@@ -4,7 +4,7 @@ Rearranges the letters of words to form different words. The new word(s) are an 
 # How it works:
 This program solves anagrams using Recursive Backtracking to test all combinations of letters against a dictionary.
 
-This LetterInventory class creates a integer array of letter counters that keeps track of how many of occurrences of each letter are in a phrase. The AnagramSolver class uses this to test if a phrase can be rearranged by subtracting letters from the input phrase recursively until there are no suitable words left in the dictionary or until all letters have been substracted from a phrase. The paths that have excess letters are ignored and the paths that use all letters are printed to console.
+This LetterInventory class creates an integer array of letter counters that keeps track of how many of occurrences of each letter are in a phrase. The AnagramSolver class uses this to test if a phrase can be rearranged by subtracting letters from the input phrase recursively until there are no suitable words left in the dictionary or until all letters have been substracted from a phrase. The paths that have excess letters are ignored and the paths that use all letters are printed to console.
 
 # Sample Output:
 ```
